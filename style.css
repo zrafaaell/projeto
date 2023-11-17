@@ -14,7 +14,6 @@
   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
-
 .light {
   --text-color: black;
   --br-url: url(./assets/bg-mobile-light.jpg);
@@ -36,11 +35,10 @@ body * {
 
 #container {
   width: 100%;
-  max-width: 580px;
+  max-width: 350px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
-
 
 /*profile*/
 #profile {
@@ -50,7 +48,6 @@ body * {
 
 #profile img {
   width: 112px;
-  
 }
 
 #profile p {
@@ -60,14 +57,10 @@ body * {
 }
 
 /*switch*/
-#switch{
-position: relative;
-width: 64px;
-margin: 4px auto;
-
-
-
-
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
 #switch button {
@@ -86,7 +79,7 @@ margin: 4px auto;
 
 .light #switch button {
   right: 0;
-  left: initial;    
+  left: initial;
 }
 
 #switch span {
@@ -158,8 +151,10 @@ ul li a:hover {
   background: var(--highlight-color);
 }
 
-footer{
+footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
 }
+
+
